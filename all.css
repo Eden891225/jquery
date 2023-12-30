@@ -1,0 +1,435 @@
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*主程式*/
+body{
+    width: 1920px;
+    background: #ffffff;
+}
+.header1 {
+    background: #f6f6f8;
+    height: 32px;
+    width: 1920px;
+    margin: 0 auto;
+}
+.header1 .box{
+    margin-right: 405px;
+    display: flex;
+    justify-content: flex-end;
+}
+.header1 .facebook{
+    font-family: Microsoft JhengHei UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    margin-right: 12px;
+    margin-left: 12px;
+    padding-top: 4px;
+    color: #4267b2;
+}
+.header1 .twitter{
+    font-family: Microsoft JhengHei UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    margin-right: 12px;
+    margin-left: 12px;
+    padding-top: 4px;
+    color: #1DA1F2;
+}
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    margin: 0 auto;
+    width: 1099px;
+    margin-left: 404px;
+    margin-right: 417px;
+    height: 76px;
+}
+.logo{
+    display: block;
+    padding-top: 13px;
+}
+.list{
+    display: flex;
+    justify-content: flex-end;
+    width: 1366px;
+}
+.header2 .item1{
+    font-family: Microsoft JhengHei UI;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    text-align: center;
+    line-height: 76px;
+    padding-right: 24px;
+    padding-left: 24px;
+    color: #00251A;
+}
+.header2 .item2{
+    font-family: Microsoft JhengHei UI;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    text-align: center;
+    line-height: 76px;
+    padding-right: 24px;
+    padding-left: 24px;
+    color: #00251A;
+}
+.header2 .item3{
+    font-family: Microsoft JhengHei UI;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    text-align: center;
+    line-height: 76px;
+    padding-right: 24px;
+    padding-left: 24px;
+    color: #00251A;
+}
+.header2 .item1 .subitem1{
+    display: none;
+    background-color: #ffffff;
+    position: relative;
+    top: 0px;
+    z-index: 101;
+}
+.header2 .item2 .subitem2{
+    display: none;
+    background-color: #ffffff;
+    position: relative;
+    top: 0px;
+    z-index: 101;
+}
+.header2 .item3 .subitem3{
+    display: none;
+    background-color: #ffffff;
+    position: relative;
+    top: 0px;
+    z-index: 101;
+}
+.header2 .item:hover{
+    border-bottom: 4px solid #00CC99;
+}
+a:active{
+    background-color: #cccccc;
+}
+.header3{
+    width: 1002px;
+    height: 390px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.header3 .box{
+    position: absolute;
+    top: 210px;
+    width: 1002px;
+    height: 139px;
+    background-color: #FFFFFF;
+    opacity: 0.15;
+    z-index: 100;
+}
+.header3 .title{
+    position: absolute;
+    top: 240px;
+    left: 498px;
+    z-index: 100;
+}
+.header3 .item{
+    font-family: Microsoft JhengHei UI;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+}
+.swiper-container{
+    width: 1002px;
+    margin: 0 auto;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 405px;
+}
+.subcontent{
+    background: #FFFFFF;
+    width: 350px;
+    box-shadow:0 2px 4px 0 rgb(0, 0, 0, 0.16);
+    border-radius: 5px;
+}
+.subcontent .icon{
+    width: 100%;
+    height: 177px;
+}
+.icon{
+    transform: translate(-50%, -50%);
+    position: relative;
+    top: 92.725px;
+    left: 175px;
+}
+div h2{
+    font-family: Microsoft JhengHei UI;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+div p{
+    font-family: Microsoft JhengHei UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 310px;
+    margin: 0 auto;
+}
+.table_title{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+}
+table{
+    width: 920px;
+    height: 305px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+tr{
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+}
+th{
+    font-family: Microsoft JhengHei UI;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+td{
+    font-family: Microsoft JhengHei UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+tr .color{
+    font-family: Microsoft JhengHei UI;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #00CC99;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 1920px;
+    background: linear-gradient(180deg, #076d52 0%, #A2DDCE 100%);
+    margin-top: 30px;
+}
+.form_title{
+    font-family: Microsoft JhengHei UI;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+label{
+    font-family: Microsoft JhengHei UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+input{
+    width: 500px;
+    height: 38px;
+    border: 1px solid #aaaaaa;
+    border-radius: 3px;
+}
+input::placeholder{
+    font-family: Microsoft JhengHei UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #999999;
+}
+textarea{
+    width: 500px;
+    height: 300px;
+    border: 1px solid #aaaaaa;
+    border-radius: 3px;
+}
+.form_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 36px;
+}
+.form_box .left{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.form_box .right{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.button{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 36px;
+    margin-left: 400px;
+    width: 100px;
+    height: 38px;
+    border-radius: 3px;
+    background-color: #0ecf95;
+    color: #FFFFFF;
+    font-family: Microsoft JhengHei UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.button:hover{
+    cursor: pointer;
+}
+.button:active{
+    background-color: #999999;
+}
+.top{
+    background-color: #cf0e25;
+    color: #FFFFFF;
+    width: 100px;
+    height: 38px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 16px;
+}
+.top:hover{
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    margin: 0 auto;
+    width: 1099px;
+    margin-left: 404px;
+    margin-right: 417px;
+    height: 76px;
+}
+footer p{
+    font-family: Microsoft JhengHei UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 14px;
+}
+footer a{
+    text-decoration: none;
+    color: #bd226a;
+    font-family: Microsoft JhengHei UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
